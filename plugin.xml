@@ -7,6 +7,9 @@
         <param name="ios-package" value="AppleAVAudioSessionRequestRecordPermission" />
       </feature>
     </config-file>
+    <config-file target="*-Info.plist" parent="NSMicrophoneUsageDescription">
+      <string>$MICROPHONE_USAGE_DESCRIPTION</string>
+    </config-file>
     <framework src="AVFoundation.framework" />
     <source-file src="src/swift/AppleAVAudioSessionRequestRecordPermission.swift" />
   </platform>
