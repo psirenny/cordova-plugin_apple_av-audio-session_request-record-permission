@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin_apple_av-audio-session_request-record-permission",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Cordova plugin to request AVAudioSession recordPermission",
   "author": "Dennis Torres <djtorres0@gmail.com>",
   "bugs": "https://github.com/talk-to-track/private/issues",
